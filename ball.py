@@ -7,8 +7,7 @@ class Ball(Turtle):
         self.shape("circle")
         self.color("gold2")
         self.penup()
-        # self.x = random.randint(1,6)
-        self.x = 5
+        self.x = random.randint(1,6)
         self.angle = 0
         self.start = True
         self.keep_moving = True
